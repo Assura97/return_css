@@ -1,20 +1,24 @@
 .img-sea{
+  display: block;
   width: 400px;
   box-sizing: border-box;
 
   border: 3px solid red;
   padding: 50px 15px;
-  margin: 10px;
+  margin: 10px auto;
 }
 .span{
   width: 300px;
   border: 3px solid red;
   padding: 50px 15px;
+  display: block;;
 }
 .div{
-  width: 300px;
+  display: inline-block;
+  width: 150px;
   border: 3px solid red;
   margin: 50px auto;
+  box-sizing: border-box;
 }
 .align-center{
   margin: 10px auto;
