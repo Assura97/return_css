@@ -1,14 +1,11 @@
-.img-sea{
+.wrapper{
+  width: 500px;
+  height: 500px;
+  border: 3px solid rgb(10, 2, 2);
+}
+.inner{
   width: 300px;
   height: 300px;
-  box-sizing: border-box;
-
-  object-fit: cover;
-  object-position: center bottom;
-
-  border-radius: 50%;
-
-  border: 3px solid red;
-  padding: 15px;
-  margin: 10px auto;
+  border: inherit;
+  border-color: blue;
 }
