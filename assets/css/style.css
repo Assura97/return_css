@@ -1,0 +1,31 @@
+.main-header {
+  color: #ff0000CD;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.art-header {
+  color: magenta;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: serif;
+  text-transform: capitalize;
+}
+
+.art-header+p {
+  font-size: 22px;
+  line-height: 1.3em;
+  text-align: justify;
+}
+
+.page-link {
+  text-decoration: line-through 3px wavy rgb(189, 36, 36);
+  /* text-decoration-line: overline;
+  text-decoration-thickness: 3px;
+  text-decoration-style: double;
+  text-decoration-color: rgb(175,131,131); */
+}
+.align-center{
+  text-align: center;
+  font-size: 10px;
+}
