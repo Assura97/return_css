@@ -1,26 +1,14 @@
 .img-sea{
-  display: block;
-  width: 400px;
+  width: 300px;
+  height: 300px;
   box-sizing: border-box;
 
+  object-fit: cover;
+  object-position: center bottom;
+
+  border-radius: 50%;
+
   border: 3px solid red;
-  padding: 50px 15px;
+  padding: 15px;
   margin: 10px auto;
-}
-.span{
-  width: 300px;
-  border: 3px solid red;
-  padding: 50px 15px;
-  display: block;;
-}
-.div{
-  display: inline-block;
-  width: 150px;
-  border: 3px solid red;
-  margin: 50px auto;
-  box-sizing: border-box;
-}
-.align-center{
-  margin: 10px auto;
-  text-align: center;
 }
