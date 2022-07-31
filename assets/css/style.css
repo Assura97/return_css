@@ -1,15 +1,21 @@
-.pic-ch{
-  width: 25vmin;
-  height: 25vmin;
-  object-fit: cover;
-  object-position: top;
-  border-radius: 50%;
+.container{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  padding-top: 20px;
+
+  background-color: coral;
+
+  text-align: center;
+  font-size: 2em;
 }
-.pic-ch-f{
-  width: 25vmin;
-  height: 25vmin;
-  border-radius: 50%;
-  background-image: url(./../img/sea.jpg);
-  background-size: cover;
-  background-position: top;
+.hidden1{
+  display: none;
+}
+.hidden2{
+  opacity: .3;
+}
+.hidden3{
+  visibility: hidden;
 }
