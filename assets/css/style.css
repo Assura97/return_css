@@ -1,9 +1,6 @@
-ul{
-  list-style-type: upper-alpha;
-  list-style-position: inside;
+th, td{
+  border: 1px solid #555;
 }
-ol{
-  list-style-type: square;
-  list-style-image: url(./../img/alpha-x-circle.png);
-  
+table{
+  border-collapse: collapse;
 }
