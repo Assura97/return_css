@@ -1,21 +1,9 @@
-.container{
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  box-sizing: border-box;
-  padding-top: 20px;
-
-  background-color: coral;
-
-  text-align: center;
-  font-size: 2em;
+ul{
+  list-style-type: upper-alpha;
+  list-style-position: inside;
 }
-.hidden1{
-  display: none;
-}
-.hidden2{
-  opacity: .3;
-}
-.hidden3{
-  visibility: hidden;
+ol{
+  list-style-type: square;
+  list-style-image: url(./../img/alpha-x-circle.png);
+  
 }
