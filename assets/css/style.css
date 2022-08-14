@@ -1,6 +1,17 @@
-th, td{
-  border: 1px solid #555;
+
+p::first-letter{
+  font-size: 2em;
+  color: red;
+  font-weight: bolder;
 }
-table{
-  border-collapse: collapse;
+p::first-line{
+  background-color: rgb(238, 20, 227);
+  color: rgb(9, 136, 30);
 }
+p::selection{
+  color: rgb(226, 19, 174);
+  background-color: rgb(255, 219, 16);
+  text-shadow: 2px 2px 2px rgb(255, 4, 4);
+}
+
+
